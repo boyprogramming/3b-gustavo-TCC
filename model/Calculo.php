@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once __DIR__ . '/../bd/conexao.php';
 
@@ -53,7 +52,6 @@ class Calculo {
         return $stmt->execute([$id, $usuarioId]);
     }
 }
-=======
 <?php
 require_once __DIR__ . '/../bd/conexao.php';
 
@@ -108,4 +106,3 @@ class Calculo {
         return $stmt->execute([$id, $usuarioId]);
     }
 }
->>>>>>> 216721761fb0428b220ffcb2337b687526958205

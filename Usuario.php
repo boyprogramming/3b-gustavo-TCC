@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once __DIR__ . '/../bd/conexao.php';
 
@@ -24,7 +23,6 @@ class Usuario {
         return $stmt->execute([$nome, $email, $senhaHash]);
     }
 }
-=======
 <?php
 require_once __DIR__ . '/../bd/conexao.php';
 
@@ -50,4 +48,3 @@ class Usuario {
         return $stmt->execute([$nome, $email, $senhaHash]);
     }
 }
->>>>>>> 216721761fb0428b220ffcb2337b687526958205

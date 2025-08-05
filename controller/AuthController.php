@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 require_once __DIR__ . '/../model/Usuario.php';
 session_start();
@@ -29,7 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 }
-=======
 <?php
 require_once __DIR__ . '/../model/Usuario.php';
 session_start();
@@ -60,4 +58,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
     }
 }
->>>>>>> 216721761fb0428b220ffcb2337b687526958205
